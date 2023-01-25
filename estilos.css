@@ -1,0 +1,180 @@
+.body {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
+#barra{
+    position: fixed;
+    top: 0;
+    height: 90px;
+    width: 100%;
+    background-color:  black;
+
+    overflow: hidden;
+} 
+#cuerpo{
+    margin-top: 80px;
+}
+#premio{
+    color: goldenrod;
+    font-family:'IM Fell Great Primer', serif;;
+}
+conteiner-fluid.row.button{
+    background-color: blue;
+
+}
+button{
+    padding: 5%;
+    border: none;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+i{
+    text-align: center;
+
+    color:whitesmoke;
+    
+}
+h1{
+    font-family: 'Rubik Gemstones', cursive;
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+h2{
+    font-family: 'Martian Mono', monospace;
+    padding: 10px;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+}
+
+h3{
+    padding: 10px;
+    text-align: center;
+    color: brown;
+    width: 100%;
+}
+h3:hover{
+    color:honeydew;
+}
+h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    text-align: center;
+    color:  black;
+    width: 100%;
+}
+h5{
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+}
+h6{
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+}
+iframe{
+    align-items: center;
+    width: 100%;
+}
+li{
+    text-align: left;
+}
+
+span{
+    margin: 250px;
+    background-color: black;
+    border-color: rgb(194, 23, 23);
+    border-left:    px;
+    border-width: 190px;
+    border-style: none double none;
+    font-size: x-large;
+    font-family:'Dancing Script',cursive;
+    color: white;
+    text-transform: capitalize;
+}
+section{
+    width: 200px;
+    border: 8px dashed rebeccapurple;
+    padding: 30px;
+    margin: 20px;
+} 
+span{
+    color:aliceblue;
+}
+p{
+    text-align: center;
+}
+
+#contenedorCarrera{
+    padding: 3%;
+    border: 2px solid brown; 
+    background-color: aliceblue;
+}
+#footer{
+    
+    font-family: 'Nabla', cursive;
+
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .popup :hover{
+    color: green;
+}
+  /* El popup aparece abajo */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: -125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Flecha Popup  */
+  .popup .popuptext::after {
+    content: "";
+    position:absolute;
+    top: -50%;
+    left: 50%;
+    margin-left: -15px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+    rotate: 180deg;
+  }
+  
+  /* muestra y oculta el popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1.5s;
+    animation: fadeIn 1.5s
+  }
+  
+  /* animacion al popup */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  
